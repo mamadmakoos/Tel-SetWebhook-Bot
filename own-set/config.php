@@ -10,9 +10,9 @@ declare(strict_types=1);
  * فایل تنظیمات ربات
  */
 
-$token = $token ?? "2145506904:AAH4QVgWWvCSRkRBD8AN_J8Bcb1OdjOe3TU";
+$token = $token ?? null;
 $admin = $admin ?? 1007009569;
-$apiweb = $apiweb ?? "https://mamad.sabioweb.ir/setcron/own/bot.php";
+$apiweb = $apiweb ?? "https://sabioweb.ir/bot.php";
 $channel = $channel ?? "IM_MAKOOS";
 $support = $support ?? "@barsam_dev";
 $channelList = $channelList ?? [$channel];
